@@ -14,7 +14,7 @@ public class StoreData {
 		Configuration cfg=new Configuration();
 		cfg.configure("hibernate.cfg.xml");
 		SessionFactory sf=cfg.buildSessionFactory();
-		Session session=sf.openSession();
+		  Session session=sf.openSession();
 		Transaction t=session.beginTransaction();
 		
 		Book obj=new Book();
