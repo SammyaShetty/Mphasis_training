@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1 align="center">:: Employee Data ::</h1>
-	<jsp:useBean id="emp" class="com.testtt.Employee"></jsp:useBean>
+	<jsp:useBean id="emp" class="com.test.Employee"></jsp:useBean>
 	<jsp:setProperty property="*" name="emp"/>
 	
 	ID:<jsp:getProperty property="id" name="emp"/><br>
