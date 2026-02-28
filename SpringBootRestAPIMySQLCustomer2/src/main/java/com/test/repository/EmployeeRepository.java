@@ -14,7 +14,7 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
 //	Employee getEmployeeByName(String name);
 //	
 //	@Query("select e from Employee e where e.company=?1 ")
-//	List<Employee> getEmployeesByCompany(String company);
+//	List<Employee> getEmployeesByCompany(String compnay);
 	
 	
 	@Query("select e from Employee e where e.name=:name")
